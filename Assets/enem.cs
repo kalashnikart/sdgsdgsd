@@ -9,6 +9,10 @@ public class enem : MonoBehaviour
     
     [DllImport("__Internal")]
     private static extern void JoinRoomWRTC(string str);
+    
+    
+    [DllImport("__Internal")]
+    private static extern void LeaveRoomWRTC();
 
     // Start is called before the first frame update
     void Start()
